@@ -1,0 +1,21 @@
+*{ 
+    padding: 0px;
+    margin: 0px;
+
+}
+.kai{
+    background-color: brown;
+    border: 5px blue;
+    width: 300px;
+}
+.ki{
+    background-color: chartreuse;
+    border: 10px darkgoldenrod;
+    height: 500px;
+    justify-content:center;
+    border: 5px; yellow;
+    width: 400px;
+    padding: 200px 200px 300px;
+    margin-bottom: 200px;
+
+}

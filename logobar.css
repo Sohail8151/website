@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    background-color: yellow;
+    padding: 0px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+margin: 35px;
+color: blueviolet;
+text-shadow: rgb(26, 15, 1);
+}
+ul li {
+    float: left;
+    margin: 40px;
+    list-style: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+ul li a{
+    text-decoration: none;
+    color: tomato;
+    font-weight: bold;
+   
+    border-radius: 30px;
+}
+.content{
+    margin-right: 20px;
+}
+ul li a:hover{
+    background-color: rgb(10, 10, 10);
+    color: yellow;
+}

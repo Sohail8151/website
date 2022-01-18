@@ -1,0 +1,29 @@
+.a{
+    background-color: rgb(58, 28, 7);
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    position: fixed;
+
+}
+.b{
+    background-color: rgb(228, 122, 143);
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    position: fixed;
+
+}
+.c{
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    position: absolute;
+}
+.d{
+    background-color: chartreuse;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}

@@ -1,0 +1,61 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+.top{
+    background-color: rgb(41, 100, 207);
+    
+}
+
+.top h6{
+    margin-left: 6px;
+    color: cornsilk;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 6px;
+    
+
+    
+}
+.middle{
+    display: flex;
+    background-color: rgb(16, 15, 75);
+    justify-content: space-evenly;
+    padding-left: 0;
+    justify-content: space-between;
+    height: 30vh;
+}
+     
+.middle li{
+    list-style: none;
+    
+   
+}
+a{
+    text-decoration: none;
+    color: cornsilk;
+   
+}
+h2{
+     color: aliceblue; 
+     margin-left: 0;
+}
+.h{
+    color: aliceblue;
+    margin-left:0;
+}
+.bottom{
+    text-align: center;
+    background-color: cornsilk;
+}
+a:hover{
+    background-color: aqua;
+}
+.a7{
+    padding: 10px;
+}
+li{
+    padding: 10px;
+}

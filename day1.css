@@ -1,0 +1,20 @@
+.head1{
+    color: aqua;
+}
+#p{
+    background-color: blueviolet ;
+    height: 5rem;
+    width: 5rem;
+}
+.head2{
+    color: burlywood;
+    background-color: crimson;
+    height: 2rem;
+    width: 5rem;
+}
+.p{
+    color: yellowgreen;
+    background-color: khaki;
+    width: 5rem;
+    height: 5rem;
+}

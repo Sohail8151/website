@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(207, 84, 12);
+}
+.a{
+    background-color:white ;
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    left: 220px;
+    top: 150px;
+    border-radius: 10px ;
+}
+.b{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 325px;
+    top: 150px;
+    border-radius: 50px;
+}
+input[tyoe=text], input[type=password]
