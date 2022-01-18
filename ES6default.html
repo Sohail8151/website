@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+//        function greet(name, greeting, message = greeting + ' ' + name) {
+//  return [name, greeting, message]
+// }
+// greet('David', 'Hi'); 
+// greet('David', 'Hi', 'Happy Birthday!'); 
+
+
+
+ function createDiv(height = '100px', width = '100px', border = 'solid 1px red')
+ {
+  let div = document.createElement('div');
+  //The createElement() method creates an Element Node with the specified name
+  div.style.height = height;
+  div.style.width = width;
+  div.style.border = border;
+  document.body.appendChild(div);
+  return div;
+ }
+ createDiv();
+ createDiv(undefined,undefined,'solid 5px blue');
+
+
+
+function add(x = 1, y = x, z = x + y) {
+ return x + y + z;
+}
+console.log(add()); 
+
+
+
+
+let taxRate = () => 0.1;
+let getPrice = function( price, tax = price * taxRate() ) {
+ return price + tax;
+}
+let fullPrice = getPrice(100);
+console.log(fullPrice);  
+
+
+
+function add(x, y = 1, z = 2) {
+ console.log( arguments.length );
+ return x + y + z;
+}
+add(10); 
+add(10, 20); 
+add(10, 20, 30); 
+
+
+
+
+function sum(x = 3, y = 5) {
+
+return x + y;
+}
+console.log(sum(5, 15)); 
+console.log(sum(7)); 
+console.log(sum());
+
+
+
+
+const summ = () => 15;
+const calculate = function( x, y = x * summ() ) {
+ return x + y;
+}
+const result = calculate(10);
+console.log(result); 
+   </script>
+</body>
+</html>
